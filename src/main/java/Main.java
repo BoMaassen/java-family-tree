@@ -14,7 +14,7 @@ public class Main {
         child2.addChild(grandchild);
         child.addChild(grandchild);
         System.out.println(dad.getGrandChildren());
-        System.out.println(dad);
+        System.out.println(dad.getChildren());
 
 
     }

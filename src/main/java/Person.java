@@ -77,6 +77,7 @@ public class Person {
 
     public void addChild(Person child){
         this.children.add(child);
+
     }
 
     public void addPet(Pet pet){
@@ -104,6 +105,22 @@ public class Person {
 }
 
 
+    public Person getMother() {
+        return mother;
+    }
+
+    public Person getFather() {
+        return father;
+    }
+    public List<Person> getChildren() {
+        return children;
+    }
+    public List<Pet> getPets() {
+        return pets;
+    }
+    public List<Person> getSiblings() {
+        return siblings;
+    }
 }
 
 
